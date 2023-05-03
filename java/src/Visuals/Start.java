@@ -6,11 +6,11 @@ public class Start extends Visual{
     int menu = 0;
     double duration = 0;
 
-    Second lm;
-    Third CandS;
-    Fifth circScr;
-    Fourth cubandSphr;
-    First wv;
+    Second Sec;
+    Third Thir;
+    Fifth fif;
+    Fourth four;
+    First fir;
     
     // Settings of window
     public void settings()
@@ -27,11 +27,11 @@ public class Start extends Visual{
         startMinim();
         loadAudio("Animals.mp3");
 
-        lm = new Second(this);
-        CandS = new Third(this);
-        circScr = new Fifth(this);
-        cubandSphr = new Fourth(this);
-        wv = new First(this); 
+        Sec = new Second(this);
+        Thir = new Third(this);
+        fif = new Fifth(this);
+        four = new Fourth(this);
+        fir = new First(this);  
     }
 
     // Draw that keeps getting run.
@@ -44,19 +44,19 @@ public class Start extends Visual{
         switch(menu) {
             case 0:
                 
-                wv.render();
+                fir.render();
                 break;
             case 1:
-                lm.render();
+                Sec.render();
                 break;
             case 2:
-                CandS.render();
+                Thir.render();
                 break;
             case 3:
-                cubandSphr.render();
+                four.render();
                 break;
             case 4:
-            circScr.render();
+            fif.render();
                 break;
         }
 
@@ -94,7 +94,6 @@ public class Start extends Visual{
     }
 
     // If spacebar is pressed play sound.
-    // If 'p' is pressed stop sound.
     public void keyPressed()
     {
         if (key == ' ')
@@ -102,10 +101,5 @@ public class Start extends Visual{
             getAudioPlayer().cue(0);
             getAudioPlayer().play();
         }       
-    
-        if (key == 'p')
-        {
-            getAudioPlayer().pause();
-        }  
     }
 }
