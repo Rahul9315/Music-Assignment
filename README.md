@@ -1,17 +1,16 @@
-# Music Visualiser Project
+# Music Assignment
 
-Name: Eduards Samuls
-
-Student Number: C18384776
+Team Members:
+1. Paulina Czarnota (C21365726)
+2. Prabhjeet Bissora (C21412282)
+3. Rahul (D20128756)
 
 # Description of the assignment
-Music visualiser that reacts to music given. 
-User is able to stop or play music by hitting spacebar and 'p'. 
-Each visual gets switched to another automatically.
+In this Assignment we have 5 Visualizations. Second.java and Third.java Was done by Paulina, Fifth.java and Fouth.java was done by Prabhjeet and  First.java And Start.java was done by Rahul. All these files were stored in Visuals folder and we use Animals.mp3 as an Audio File. There files Responds with the change in Amplitude and Frequency of the Music.
 
 # Instructions
-Clone this repository and run the code. 
-Press spacebar to start playing sound or 'p' to stop playing sound.
+In order to use this Repo you can just fork it or either download the code to run it.
+after that go to the main.java and press F5 to run the code and soon after press Spacebar to enjoy the music.
 
 # How it works
 All visuals are ran through Start.java in the package C18384776.
@@ -21,30 +20,31 @@ Inside this Start.java we have constuctors for visuals that are called in setup(
 These are needed to create the visuals inside Start.java.
 
 ```Java
-        lm = new LinesMoving(this);
-        CandS = new SquaresCircleTriangle(this);
-        circScr = new CircleScreensaver(this);
-        cubandSphr = new CubesAndSphere(this);
-        wv = new Wave(this);
+        Sec = new Second(this);
+        Thir = new Third(this);
+        fif = new Fifth(this);
+        four = new Fourth(this);
+        fir = new First(this);
 ```
 
 These visuals are drawn in the draw() method.
 ```Java
         switch(menu) {
             case 0:
-                circScr.render();
+                
+                fir.render();
                 break;
             case 1:
-                lm.render();
+                Sec.render();
                 break;
             case 2:
-                CandS.render();
+                Thir.render();
                 break;
             case 3:
-                cubandSphr.render();
+                four.render();
                 break;
             case 4:
-                wv.render();
+            fif.render();
                 break;
         }
 ```
@@ -83,7 +83,7 @@ The visuals will switch automatically after a period of time.
         }
 ```
 
-The user is expected to press space to start playing the music or 'p' to stop.
+The user is expected to press space to start playing the music
 
 # What I am most proud of in the assignment
 Some things that I am proud of in this assignment are : 
@@ -94,5 +94,5 @@ Some things that I am proud of in this assignment are :
 - Using inheritance to take code from other java files.
 
 # Video
-Video can be found [here](https://vimeo.com/417818769).
+
 
