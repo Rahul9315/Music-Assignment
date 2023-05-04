@@ -6,11 +6,11 @@ Team Members:
 3. Rahul (D20128756)
 
 # Description of the assignment
-In this Assignment we have 5 Visualizations. Second.java and Third.java Was done by Paulina, Fifth.java and Fouth.java was done by Prabhjeet and  First.java And Start.java was done by Rahul. All these files were stored in Visuals folder and we use Animals.mp3 as an Audio File. There files Responds with the change in Amplitude and Frequency of the Music.
+In this Assignment we have 5 Visualizations. Second.java and Third.java was done by Paulina, Fifth.java and Fouth.java was done by Prabhjeet and First.java and Start.java was done by Rahul. All these files were stored in Visuals folder and we use Animals.mp3 as an Audio File. There files responds with the change in Amplitude and Frequency of the Music.
 
 # Instructions
 In order to use this Repo you can just fork it or either download the code to run it.
-after that go to the main.java and press F5 to run the code and soon after press Spacebar to enjoy the music.
+After that go to the main.java and press F5 to run the code and soon after press Spacebar to enjoy the music.
 
 # How it works
 All visuals are ran through Start.java in the package Visuals.
